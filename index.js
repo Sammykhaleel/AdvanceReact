@@ -12,7 +12,7 @@ const { check, validationResult } = require("express-validator");
 // local connection
 //mongoose.connect("mongodb://localhost:27017/myflixdb", {useNewUrlParser: true});
 mongoose.connect(
-  "mongodb+srv://mva66:Kidaan16@myflixdb-niqk6.mongodb.net/myFlixDB?retryWrites=true",
+  "mongodb+srv://myflixdbadmin:genericpw@startercluster-piq8s.mongodb.net/myFlixDB?retryWrites=true&w=majority",
   { useNewUrlParser: true }
 );
 
